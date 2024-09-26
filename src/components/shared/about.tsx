@@ -1,5 +1,5 @@
 import { Badge } from "../ui/badge";
-import Me from "@/assets/Без названия16_20231221203142.png";
+import Me from '@/assets/men.jpg';
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
               data-aos="fade-up-right"
               data-aos-duration="1500"
             >
-              <img src={Me} alt="my=image" className="w-full" />
+              <img src={Me} alt="my=image" className="w-full h-full" />
             </div>
             <div className="flex items-center justify-center w-[400px] h-[400px] border-[8px] border-background absolute bg-accent-foreground/25 mt-10"></div>
           </div>

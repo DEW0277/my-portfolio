@@ -1,7 +1,7 @@
 import Lottie from "lottie-react";
 import HI from "@/assets/Animation - 1714226094945 (1).json";
 import Dot from "@/assets/Animation - 1714227535168.json";
-import Me from "@/assets/Без названия16_20231221203142.png";
+import Me from "@/assets/men.jpg";
 import { Link } from "react-router-dom";
 import { FaInstagram } from "react-icons/fa";
 import { useEffect } from "react";
@@ -23,7 +23,7 @@ const Header = () => {
                 loop={true}
                 className="w-[100px] h-[100px] -ml-3.5 md:w-[70px] md:h-[70px] md:-mt-3 stroke-foreground stroke-2"
               />
-              I’m Xumoyun <span className="md:hidden">👋</span>
+              I’m Jaloliddin <span className="md:hidden">👋</span>
             </h1>
             <h4 className="font-light max-w-[768px]">
             I specialize in front-end development, creating fast, accessible, and visually appealing websites that provide exceptional digital experiences. Although I'm not yet a full-stack developer, I'm close to reaching that goal. With one year of experience in web development, I continue to find excitement in every project as if it were my first.
@@ -203,13 +203,13 @@ const Header = () => {
         </div>
         <div className="header-image flex items-end justify-end w-[400px] h-[270px]  md:hidden ">
           <div
-            className="flex items-center justify-center w-[272px] h-[272px] border-[8px] border-background mb-10 mr-10 z-10"
+            className="flex items-center justify-center w-[300px] h-[272px] border-[8px] border-background mb-10 mr-10 z-10"
             data-aos="fade-up-left"
             data-aos-duration="1500"
           >
-            <img src={Me} alt="my=image" className="w-full" />
+            <img src={Me} alt="my=image" className="w-full h-full" />
           </div>
-          <div className="flex items-center justify-center w-[272px] h-[272px] border-[8px] border-background absolute bg-accent-foreground/25"></div>
+          <div className="flex items-center justify-center w-[300px] h-[272px] border-[8px] border-background absolute bg-accent-foreground/25"></div>
         </div>
         <div className="header-image flex items-end justify-center w-[300px] h-[270px] 2xl:hidden md:flex">
           <div
