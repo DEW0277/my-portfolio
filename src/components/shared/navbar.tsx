@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="Navbar-section flex w-full py-4 items-center justify-between md:px-4">
         <div className="nav-logo">
           <Link to={"/"}>
-            <h1 className="text-3xl font-bold">{`<QX />`}</h1>
+            <h1 className="text-3xl font-bold">{`<Jaloliddin />`}</h1>
           </Link>
         </div>
         <div className="nav-right flex gap-12 items-center md:hidden">
@@ -30,28 +30,43 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="hover:text-blue-700 ease-in-out duration-150">
-                <Link to="/" onClick={() => {
+                <Link
+                  to="/"
+                  onClick={() => {
                     window.scroll({
                       behavior: "smooth",
                       top: 3000,
                     });
-                  }}>Work</Link>
+                  }}
+                >
+                  Work
+                </Link>
               </li>
               <li className="hover:text-blue-700 ease-in-out duration-150">
-                <Link to="/" onClick={() => {
+                <Link
+                  to="/"
+                  onClick={() => {
                     window.scroll({
                       behavior: "smooth",
                       top: 6000,
                     });
-                  }}>Testimonials</Link>
+                  }}
+                >
+                  Testimonials
+                </Link>
               </li>
               <li className="hover:text-blue-700 ease-in-out duration-150">
-                <Link to="/" onClick={() => {
+                <Link
+                  to="/"
+                  onClick={() => {
                     window.scroll({
                       behavior: "smooth",
                       top: 7000,
                     });
-                  }}>Contact</Link>
+                  }}
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
@@ -168,32 +183,44 @@ const Navbar = () => {
                     </Link>
                   </li>
                   <li className="hover:text-blue-700 ease-in-out duration-150">
-                    <Link to="/" className="text-foreground" onClick={() => {
-                    window.scroll({
-                      behavior: "smooth",
-                      top: 4100,
-                    });
-                  }}>
+                    <Link
+                      to="/"
+                      className="text-foreground"
+                      onClick={() => {
+                        window.scroll({
+                          behavior: "smooth",
+                          top: 4100,
+                        });
+                      }}
+                    >
                       Work
                     </Link>
                   </li>
                   <li className="hover:text-blue-700 ease-in-out duration-150">
-                    <Link to="/" className="text-foreground" onClick={() => {
-                    window.scroll({
-                      behavior: "smooth",
-                      top: 7750,
-                    });
-                  }}>
+                    <Link
+                      to="/"
+                      className="text-foreground"
+                      onClick={() => {
+                        window.scroll({
+                          behavior: "smooth",
+                          top: 7750,
+                        });
+                      }}
+                    >
                       Testimonials
                     </Link>
                   </li>
                   <li className="hover:text-blue-700 ease-in-out duration-150">
-                    <Link to="/" className="text-foreground"onClick={() => {
-                    window.scroll({
-                      behavior: "smooth",
-                      top: 11000,
-                    });
-                  }}>
+                    <Link
+                      to="/"
+                      className="text-foreground"
+                      onClick={() => {
+                        window.scroll({
+                          behavior: "smooth",
+                          top: 11000,
+                        });
+                      }}
+                    >
                       Contact
                     </Link>
                   </li>

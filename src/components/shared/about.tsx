@@ -1,5 +1,5 @@
 import { Badge } from "../ui/badge";
-import Me from '@/assets/men.jpg';
+import Me from "@/assets/men.jpg";
 
 const About = () => {
   return (
@@ -41,14 +41,14 @@ const About = () => {
             </h1>
             <h3>
               I'm a passionate, self-motivated designer specializing in
-              near-full-stack development (React.js & Node.js, Express.js). I am
+              full-stack development (React.js & Node.js, Express.js). I am
               passionate about bringing the technical and visual aspects of
               digital products to life. User experience, pixel-perfect design,
               and writing clear, readable, high-performance code are all
               important to me.
             </h3>
             <h3>
-              I started my journey as a web developer in 2023 and since then I
+              I started my journey as a web developer in 2021 and since then I
               have continued to grow and develop as a developer, taking on new
               challenges and learning the latest technologies along the way.
               Now, since I started my web development journey at the early age

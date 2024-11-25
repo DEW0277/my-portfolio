@@ -38,8 +38,8 @@ const GetInTouch = () => {
         </div>
         <div className="copy-row flex flex-col gap-y-5 md:gap-y-2">
           <h1 className="flex items-center justify-center gap-x-4 text-4xl md:text-lg md:gap-x-1">
-            <svg 
-            className="md:w-[20px] md:h-[20px]"
+            <svg
+              className="md:w-[20px] md:h-[20px]"
               width="32.000000"
               height="32.000000"
               viewBox="0 0 32 32"
@@ -50,7 +50,7 @@ const GetInTouch = () => {
               <defs>
                 <clipPath id="clip327_2125">
                   <rect
-                  className="fill-foreground"
+                    className="fill-foreground"
                     id="Icon"
                     width="32.000000"
                     height="32.000000"
@@ -59,7 +59,7 @@ const GetInTouch = () => {
                 </clipPath>
               </defs>
               <rect
-                  className="fill-foreground"
+                className="fill-foreground"
                 id="Icon"
                 width="32.000000"
                 height="32.000000"
@@ -69,7 +69,6 @@ const GetInTouch = () => {
                 <path
                   id="Vector"
                   d="M26.66 5.33C28.13 5.33 29.33 6.52 29.33 8L29.33 24C29.33 25.47 28.13 26.66 26.66 26.66L5.33 26.66C3.86 26.66 2.66 25.47 2.66 24L2.66 8C2.66 6.52 3.86 5.33 5.33 5.33L26.66 5.33Z"
-                  
                   className="stroke-foreground"
                   stroke-opacity="1.000000"
                   stroke-width="2.000000"
@@ -78,7 +77,6 @@ const GetInTouch = () => {
                 <path
                   id="Vector"
                   d="M29.33 9.33L17.37 16.93C16.96 17.19 16.48 17.32 16 17.32C15.51 17.32 15.03 17.19 14.62 16.93L2.66 9.33"
-                  
                   className="stroke-foreground"
                   stroke-opacity="1.000000"
                   stroke-width="2.000000"
@@ -87,10 +85,10 @@ const GetInTouch = () => {
                 />
               </g>
             </svg>
-            kadambaevhumoun@gmail.com
+            jaloliddina98@gmail.com
             <svg
-            className="md:w-[20px] md:h-[20px]"
-              onClick={handleCopy("kadambaevhumoun@gmail.com")}
+              className="md:w-[20px] md:h-[20px]"
+              onClick={handleCopy("jaloliddina98@gmail.com")}
               width="32.000000"
               height="32.000000"
               viewBox="0 0 32 32"
@@ -104,8 +102,7 @@ const GetInTouch = () => {
                     id="Name=icon-copy, Size=32, Theme Mode=Dark"
                     width="32.000000"
                     height="32.000000"
-                    
-                  className="fill-foreground"
+                    className="fill-foreground"
                     fill-opacity="0"
                   />
                 </clipPath>
@@ -114,7 +111,6 @@ const GetInTouch = () => {
                 id="Name=icon-copy, Size=32, Theme Mode=Dark"
                 width="32.000000"
                 height="32.000000"
-                
                 className="fill-foreground"
                 fill-opacity="0"
               />
@@ -122,7 +118,6 @@ const GetInTouch = () => {
                 <path
                   id="Vector"
                   d="M26.66 10.66C28.13 10.66 29.33 11.86 29.33 13.33L29.33 26.66C29.33 28.13 28.13 29.33 26.66 29.33L13.33 29.33C11.86 29.33 10.66 28.13 10.66 26.66L10.66 13.33C10.66 11.86 11.86 10.66 13.33 10.66L26.66 10.66Z"
-                  
                   className="stroke-foreground"
                   stroke-opacity="1.000000"
                   stroke-width="2.000000"
@@ -142,7 +137,7 @@ const GetInTouch = () => {
           </h1>
           <h1 className="flex items-center justify-center gap-x-4 text-4xl  md:text-sm md:gap-x-2">
             <svg
-            className="md:w-[20px] md:h-[20px]"
+              className="md:w-[20px] md:h-[20px]"
               width="32.000000"
               height="32.000000"
               viewBox="0 0 32 32"
@@ -179,10 +174,10 @@ const GetInTouch = () => {
                 />
               </g>
             </svg>
-            +998 99 090 34 56
+            +998 94 724 02 77
             <svg
-            className="md:w-[20px] md:h-[20px]"
-              onClick={handleCopy("+998 99 090 34 56")}
+              className="md:w-[20px] md:h-[20px]"
+              onClick={handleCopy("+998 94 724 02 77")}
               width="32.000000"
               height="32.000000"
               viewBox="0 0 32 32"
@@ -231,10 +226,12 @@ const GetInTouch = () => {
           </h1>
         </div>
         <div className="flex flex-col gap-y-2 items-center">
-            <h3 className="text-foreground/80 text-center">You may also find me on these platforms!</h3>
-            <div className="icons flex gap-4">
+          <h3 className="text-foreground/80 text-center">
+            You may also find me on these platforms!
+          </h3>
+          <div className="icons flex gap-4">
             <Link
-              to={"https://twitter.com/JOKERxtheatre"}
+              to={"https://www.linkedin.com/in/dew0277/"}
               className="Twit"
               target="_blank"
             >
@@ -278,7 +275,7 @@ const GetInTouch = () => {
               </svg>
             </Link>
             <Link
-              to={"https://github.com/JOKERxtheatre"}
+              to={"https://github.com/DEW0277"}
               className="Git"
               target="_blank"
             >
@@ -311,7 +308,7 @@ const GetInTouch = () => {
                 />
                 <g clip-path="url(#clip3_575)">
                   <path
-                className="stroke-foreground"
+                    className="stroke-foreground"
                     id="Vector"
                     d="M15 22L15 18C15.13 16.74 14.77 15.49 14 14.5C17 14.5 20 12.5 20 9C20.07 7.75 19.73 6.52 19 5.5C19.27 4.35 19.27 3.15 19 2C19 2 18 2 16 3.5C13.35 3 10.63 3 8 3.5C6 2 5 2 5 2C4.69 3.15 4.69 4.35 5 5.5C4.27 6.51 3.91 7.75 4 9C4 12.5 7 14.5 10 14.5C9.6 14.99 9.31 15.55 9.14 16.15C8.97 16.75 8.92 17.37 9 18L9 22"
                     stroke="#fff"
@@ -321,7 +318,7 @@ const GetInTouch = () => {
                     stroke-linecap="round"
                   />
                   <path
-                className="stroke-foreground"
+                    className="stroke-foreground"
                     id="Vector"
                     d="M9 18C4.49 20 4 16 2 16"
                     stroke="#D1D5DB"
@@ -334,7 +331,7 @@ const GetInTouch = () => {
               </svg>
             </Link>
             <Link
-              to={"https://www.instagram.com/xum0yun.x/"}
+              to={"https://www.instagram.com/jaloliddin.dev/"}
               target="_blank"
               className="fig"
             >

@@ -26,14 +26,19 @@ const Header = () => {
               I’m Jaloliddin <span className="md:hidden">👋</span>
             </h1>
             <h4 className="font-light max-w-[768px]">
-            I specialize in front-end development, creating fast, accessible, and visually appealing websites that provide exceptional digital experiences. Although I'm not yet a full-stack developer, I'm close to reaching that goal. With one year of experience in web development, I continue to find excitement in every project as if it were my first.
+              I specialize in Web development, creating fast, accessible, and
+              visually appealing websites that provide exceptional digital
+              experiences. Although I'm yet a full-stack developer, I'm close to
+              reaching that goal. With one year of experience in web
+              development, I continue to find excitement in every project as if
+              it were my first.
             </h4>
           </div>
           <div className="adress flex flex-col gap-2">
             <h3 className="flex items-center justify-start gap-2 font-light">
               <svg
                 width="24.000000"
-                height="24.000000"
+                height="24.00000"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +47,6 @@ const Header = () => {
                 <defs>
                   <clipPath id="clip327_1815">
                     <rect
-                    
                       id="Icon"
                       width="24.000000"
                       height="24.000000"
@@ -52,7 +56,7 @@ const Header = () => {
                   </clipPath>
                 </defs>
                 <rect
-                className="fill-foreground"
+                  className="fill-foreground"
                   id="Icon"
                   width="24.000000"
                   height="24.000000"
@@ -170,7 +174,7 @@ const Header = () => {
                 />
                 <g clip-path="url(#clip3_575)">
                   <path
-                className="stroke-foreground"
+                    className="stroke-foreground"
                     id="Vector"
                     d="M15 22L15 18C15.13 16.74 14.77 15.49 14 14.5C17 14.5 20 12.5 20 9C20.07 7.75 19.73 6.52 19 5.5C19.27 4.35 19.27 3.15 19 2C19 2 18 2 16 3.5C13.35 3 10.63 3 8 3.5C6 2 5 2 5 2C4.69 3.15 4.69 4.35 5 5.5C4.27 6.51 3.91 7.75 4 9C4 12.5 7 14.5 10 14.5C9.6 14.99 9.31 15.55 9.14 16.15C8.97 16.75 8.92 17.37 9 18L9 22"
                     stroke="#fff"
@@ -180,7 +184,7 @@ const Header = () => {
                     stroke-linecap="round"
                   />
                   <path
-                className="stroke-foreground"
+                    className="stroke-foreground"
                     id="Vector"
                     d="M9 18C4.49 20 4 16 2 16"
                     stroke="#D1D5DB"

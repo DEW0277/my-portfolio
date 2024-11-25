@@ -650,19 +650,19 @@ export const Experiences = [
   {
     logo: `https://i.postimg.cc/RVnGkZdS/channels4-profile-removebg-preview.png`,
     logoName: "ITHouse",
-    job: "Jr. Web Developer",
+    job: "Middle Web Developer",
     works: [
       {
-        work: "Support Teacher.",
+        work: "Web Mentor.",
       },
       {
-        work: "Leader for 1-3 months.",
+        work: "Leader for 1.5 years.",
       },
       {
         work: "Working with problems in lessons",
       },
       {
-        work: "Support in Maydon project.",
+        work: "Web Developer in Maydon project.",
       },
     ],
     when: "Sep 2023 - Present",
@@ -675,10 +675,10 @@ export const Experiences = [
     job: "Teacher Web Programming",
     works: [
       {
-        work: "Teacher, Support teacher.",
+        work: "Teacher.",
       },
       {
-        work: "Working for 1 months.",
+        work: "Working for 5 months.",
       },
       {
         work: "Helping to solve problems in lessons.",
@@ -695,9 +695,10 @@ export const Experiences = [
 
 export const Works = [
   {
-    image: "https://i.postimg.cc/nLDVYZSf/2024-06-21-090020.png",
-    title: "Car Rental",
-    text: "Mashinalarni ko'rish va yoqqanini ijaraga olish imkoniyati.",
+    image:
+      "https://i.postimg.cc/ncqH1BWz/Screenshot-2024-10-05-at-04-51-18.png",
+    title: "IT House Courses",
+    text: "Online kurslar uchun. Har xil online kurslarni sotib olib ulardan foydalansa bo'ladi.",
     works: [
       {
         work: "Next.js",
@@ -706,10 +707,10 @@ export const Works = [
         work: "Typescript",
       },
       {
-        work: "Css",
+        work: "Tailwindcss",
       },
       {
-        work: "Daisy/ui",
+        work: "openai",
       },
       {
         work: "Git",
@@ -718,13 +719,13 @@ export const Works = [
         work: "React-hook-form",
       },
       {
-        work: "Hygraph",
+        work: "Mongodb",
       },
       {
         work: "Clerk",
       },
       {
-        work: "GraphQL",
+        work: "React/query",
       },
       {
         work: "Shadcn/ui",
@@ -733,7 +734,10 @@ export const Works = [
         work: "Radix/ui",
       },
       {
-        work: "Clipboard/copy",
+        work: "Expressjs",
+      },
+      {
+        work: "i18next",
       },
     ],
     link: "https://car-rentalx.netlify.app/",
