@@ -141,7 +141,7 @@ const Header = () => {
               </svg>
             </Link>
             <Link
-              to={"https://github.com/JOKERxtheatre"}
+              to={"https://github.com/Dew0277"}
               className="Git"
               target="_blank"
             >
@@ -197,7 +197,7 @@ const Header = () => {
               </svg>
             </Link>
             <Link
-              to={"https://www.instagram.com/xum0yun.x/"}
+              to={"https://www.instagram.com/jaloliddin.dev"}
               target="_blank"
               className="fig"
             >
