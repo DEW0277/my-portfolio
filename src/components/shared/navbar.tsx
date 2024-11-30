@@ -73,7 +73,7 @@ const Navbar = () => {
           <div className="flex gap-4">
             <ModeToggle />
 
-            <Link to={"https://t.me/QXumoyun"} target="_blank">
+            <Link to={"https://t.me/Dew0277"} target="_blank">
               <Button className="rounded-xl h-[36px]" type="submit">
                 Send Message
               </Button>
@@ -162,7 +162,7 @@ const Navbar = () => {
                 <div className="">
                   <div className="nav-head z-20 w-full pb-5 p-4">
                     <div className="nav-logo">
-                      <h1 className="text-2xl font-bold">{`<QX />`}</h1>
+                      <h1 className="text-2xl font-bold">{`<Dew />`}</h1>
                     </div>
                   </div>
                   <Separator />
@@ -230,7 +230,7 @@ const Navbar = () => {
                   <div className="w-full mt-4 flex flex-col px-4">
                     <ModeToggle />
 
-                    <Link to={"https://t.me/QXumoyun"} target="_blank">
+                    <Link to={"https://t.me/Dew0277"} target="_blank">
                       <Button
                         className="rounded-xl h-[36px] bg-foreground mt-14 w-full"
                         type="submit"
