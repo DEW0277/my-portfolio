@@ -691,6 +691,44 @@ export const Experiences = [
     movement: 'fade-up',
     duration: '1300',
   },
+  {
+    logo: `https://thb.tildacdn.one/tild6133-3930-4863-a634-643633303838/-/resize/504x/CoddyCamp_logo.png`,
+    logoName: 'CoddyCamp',
+    job: 'Teacher Web Programming',
+    works: [
+      {
+        work: 'Teacher.',
+      },
+      {
+        work: 'Working for 6 months.',
+      },
+      {
+        work: 'Helping to solve problems in lessons.',
+      },
+    ],
+    when: 'Apl 2023 - Sep 2023',
+    movement: 'fade-up',
+    duration: '1300',
+  },
+  {
+    logo: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSum5hS_XfC-sey4OHGY8KPkl6vwwxciHgNhf6hhzYYswbsWLlvG6s3MpFHtRJzAJJVOhE&usqp=CAU`,
+    logoName: 'Albison',
+    job: 'Stajirovka Web Programming',
+    works: [
+      {
+        work: 'Stajirovka coding.',
+      },
+      {
+        work: 'Working for 5 months.',
+      },
+      {
+        work: 'Helping to solve problems in lessons.',
+      },
+    ],
+    when: 'Sep 2022 - Yan 2022',
+    movement: 'fade-up',
+    duration: '1300',
+  },
 ];
 
 export const Works = [
@@ -779,9 +817,10 @@ export const Works = [
     duration: '300',
   },
   {
-    image: 'https://i.postimg.cc/wv68ttqH/2024-05-25-185607.png',
-    title: 'Maldex.uz',
-    text: 'Maldex.uz figmasiga tayangan holda qilinga (lux-pro-premium verstka).',
+    image:
+      'https://i.postimg.cc/d0KtV06G/Screenshot-2024-12-24-at-12-50-08.png',
+    title: 'Blog web site',
+    text: 'Blog website. For writing various blogs. IT news is provided',
     works: [
       {
         work: 'React',
@@ -801,59 +840,85 @@ export const Works = [
       {
         work: 'Shadcn/ui',
       },
+      {
+        work: 'React-router-dom',
+      },
+      {
+        work: 'Hygraphql CMS system',
+      },
     ],
-    link: 'https://maldex-web-jokerx.netlify.app/',
+    link: 'https://cms-blog-nine.vercel.app/',
     movement: 'zoom-in',
     duration: '300',
   },
   {
-    image: 'https://i.postimg.cc/3xqptp4r/2024-05-25-195459.png',
-    title: 'Weather App',
-    text: "Davlat nomini kiriting va o'sha davlatning ob-havosi haqida malumotga ega bo'ling",
-    works: [
-      {
-        work: 'Html',
-      },
-      {
-        work: 'Css',
-      },
-      {
-        work: 'Figma',
-      },
-      {
-        work: 'Git',
-      },
-      {
-        work: 'JavaScript',
-      },
-      {
-        work: 'OpenWeatherApp',
-      },
-    ],
-    link: 'https://jokerx-weather-web.netlify.app/',
-    movement: 'zoom-in',
-    duration: '300',
-  },
-
-  {
-    image: 'https://i.postimg.cc/RVsXzW6y/2024-05-25-200753.png',
-    title: 'Register App',
-    text: "Formani to'ldirish orqali saytga muvaffaqiyatli kirishingiz mumkin.",
+    image:
+      'https://i.postimg.cc/mZcDjKPz/Screenshot-2024-12-24-at-12-50-22.png',
+    title: 'Workout web site',
+    text: 'A website for those who do sports in the gym.It calculates how much time they have been doing it.This calculation is also daily, weekly and monthly.',
     works: [
       {
         work: 'React',
       },
       {
-        work: 'Css',
-      },
-      {
-        work: 'JavaScript',
+        work: 'Typescript',
       },
       {
         work: 'Figma',
       },
       {
-        work: 'Git',
+        work: 'GitHub',
+      },
+      {
+        work: 'TailwindCss',
+      },
+      {
+        work: 'React-router-dom',
+      },
+      {
+        work: 'React-hook-form',
+      },
+      {
+        work: 'UUID',
+      },
+      {
+        work: 'React-query',
+      },
+      {
+        work: 'zod',
+      },
+      {
+        work: 'Shadcn/ui',
+      },
+      {
+        work: 'zustand',
+      },
+    ],
+    link: 'https://www.rynox.uz/auth',
+    movement: 'zoom-in',
+    duration: '300',
+  },
+
+  {
+    image:
+      'https://i.postimg.cc/J0JH2FzL/Screenshot-2024-12-24-at-13-11-15.png',
+    title: 'JAtube web site',
+    text: "A website for watching videos. It's like youtube.",
+    works: [
+      {
+        work: 'React',
+      },
+      {
+        work: 'Typescript',
+      },
+      {
+        work: 'TailwindCss',
+      },
+      {
+        work: 'Rest API',
+      },
+      {
+        work: 'Github',
       },
       {
         work: 'UUID',
@@ -868,7 +933,7 @@ export const Works = [
         work: 'Lottie',
       },
     ],
-    link: 'https://jokerx-register-react-web.netlify.app/',
+    link: 'https://jatube.netlify.app',
     movement: 'zoom-in',
     duration: '300',
   },
