@@ -4,7 +4,7 @@ import Me from '@/assets/men.jpg';
 const About = () => {
   return (
     <div
-      className='About-section flex items-center justify-center w-full py-24 md:py-16 px-2 container'
+      className='About-section flex items-center justify-center w-full py-24 lg:py-16 px-2 container'
       id='about'
     >
       <div className='About flex flex-col items-center justify-center w-full'>
@@ -14,7 +14,7 @@ const About = () => {
         >
           About me
         </Badge>
-        <div className='flex items-center justify-between pt-12 w-full md:flex-col max-w-[1216px]'>
+        <div className='flex items-center justify-between pt-12 w-full lg:flex-col max-w-[1216px]'>
           <div className='about-image flex items-start justify-start w-[584px] h-[694px]  md:hidden '>
             <div
               className='flex items-center justify-center w-[400px] h-[400px] border-[8px] border-background ml-10 z-10'

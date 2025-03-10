@@ -7,13 +7,13 @@ import { Separator } from '../ui/separator';
 const Navbar = () => {
   return (
     <div className='Navbar-section w-full container md:px-0'>
-      <div className='Navbar-section flex w-full py-4 items-center justify-between md:px-4'>
+      <div className='Navbar-section flex w-full py-4 items-center justify-between sm:px-4'>
         <div className='nav-logo'>
           <Link to={'/'}>
             <h1 className='text-3xl font-bold'>{`<Jaloliddin />`}</h1>
           </Link>
         </div>
-        <div className='nav-right flex gap-12 items-center md:hidden'>
+        <div className='nav-right flex gap-12 items-center lg:hidden'>
           <div className='nav-menu'>
             <ul className='flex gap-6'>
               <li className='hover:text-blue-700 ease-in-out duration-150'>
@@ -85,7 +85,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <div className='nav-right-mobile md:flex 2xl:hidden'>
+        <div className='nav-right-mobile lg:flex 2xl:hidden'>
           <div className='drawer drawer-end'>
             <input id='my-drawer' type='checkbox' className='drawer-toggle' />
             <div className='drawer-content'>
@@ -109,7 +109,7 @@ const Navbar = () => {
                         width='24.000000'
                         height='24.000000'
                         fill='white'
-                        fill-opacity='0'
+                        fillOpacity='0'
                       />
                     </clipPath>
                   </defs>
@@ -118,38 +118,38 @@ const Navbar = () => {
                     width='24.000000'
                     height='24.000000'
                     fill='#FFFFFF'
-                    fill-opacity='0'
+                    fillOpacity='0'
                   />
-                  <g clip-path='url(#clip3_693)'>
+                  <g clipPath='url(#clip3_693)'>
                     <path
                       id='Vector'
                       d='M4 12L20 12'
                       className='stroke-foreground'
                       stroke='#fff'
-                      stroke-opacity='1.000000'
-                      stroke-width='2.000000'
-                      stroke-linejoin='round'
-                      stroke-linecap='round'
+                      strokeOpacity='1.000000'
+                      strokeWidth='2.000000'
+                      strokeLinejoin='round'
+                      strokeLinecap='round'
                     />
                     <path
                       id='Vector'
                       d='M4 6L20 6'
                       className='stroke-foreground'
                       stroke='#fff'
-                      stroke-opacity='1.000000'
-                      stroke-width='2.000000'
-                      stroke-linejoin='round'
-                      stroke-linecap='round'
+                      strokeOpacity='1.000000'
+                      strokeWidth='2.000000'
+                      strokeLinejoin='round'
+                      strokeLinecap='round'
                     />
                     <path
                       id='Vector'
                       className='stroke-foreground'
                       d='M4 18L20 18'
                       stroke='#fff'
-                      stroke-opacity='1.000000'
-                      stroke-width='2.000000'
-                      stroke-linejoin='round'
-                      stroke-linecap='round'
+                      strokeOpacity='1.000000'
+                      strokeWidth='2.000000'
+                      strokeLinejoin='round'
+                      strokeLinecap='round'
                     />
                   </g>
                 </svg>

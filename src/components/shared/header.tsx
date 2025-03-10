@@ -13,15 +13,15 @@ const Header = () => {
     AOS.init();
   }, []);
   return (
-    <div className='header-section flex items-center justify-center w-full py-24 md:py-16 container'>
-      <div className='header flex  justify-between items-center md:flex-col-reverse md:px-2 md:gap-12'>
+    <div className='header-section flex items-center justify-center w-full py-24 lg:py-16 container'>
+      <div className='header flex  justify-between items-center lg:flex-col-reverse lg:px-2 lg:gap-12'>
         <div className='header-text flex flex-col gap-12'>
           <div className=''>
-            <h1 className='text-[60px] font-bold flex md:text-4xl'>
+            <h1 className='text-[60px] font-bold flex lg:text-4xl'>
               <Lottie
                 animationData={HI}
                 loop={true}
-                className='w-[100px] h-[100px] -ml-3.5 md:w-[70px] md:h-[70px] md:-mt-3 stroke-foreground stroke-2'
+                className='w-[100px] h-[100px] -ml-3.5 lg:w-[70px] lg:h-[70px] lg:-mt-3 stroke-foreground stroke-2'
               />
               I’m Jaloliddin <span className='md:hidden'>👋</span>
             </h1>
@@ -50,7 +50,7 @@ const Header = () => {
                       width='24.000000'
                       height='24.000000'
                       fill='white'
-                      fill-opacity='0'
+                      fillOpacity='0'
                     />
                   </clipPath>
                 </defs>
@@ -60,26 +60,26 @@ const Header = () => {
                   width='24.000000'
                   height='24.000000'
                   fill='#FFFFFF'
-                  fill-opacity='0'
+                  fillOpacity='0'
                 />
-                <g clip-path='url(#clip327_1815)'>
+                <g clipPath='url(#clip327_1815)'>
                   <path
                     id='Vector'
                     d='M12 22C12 22 4 16 4 10C4 7.87 4.84 5.84 6.34 4.34C7.84 2.84 9.87 2 12 2C14.12 2 16.15 2.84 17.65 4.34C19.15 5.84 20 7.87 20 10C20 16 12 22 12 22Z'
                     stroke='#D1D5DB'
                     className='stroke-foreground'
-                    stroke-opacity='1.000000'
-                    stroke-width='2.000000'
-                    stroke-linejoin='round'
+                    strokeOpacity='1.000000'
+                    strokeWidth='2.000000'
+                    strokeLinejoin='round'
                   />
                   <path
                     id='Vector'
                     d='M12 13C10.34 13 9 11.65 9 10C9 8.34 10.34 7 12 7C13.65 7 15 8.34 15 10C15 11.65 13.65 13 12 13Z'
                     stroke='#D1D5DB'
                     className='stroke-foreground'
-                    stroke-opacity='1.000000'
-                    stroke-width='2.000000'
-                    stroke-linejoin='round'
+                    strokeOpacity='1.000000'
+                    strokeWidth='2.000000'
+                    strokeLinejoin='round'
                   />
                 </g>
               </svg>
@@ -115,7 +115,7 @@ const Header = () => {
                       width='24.000000'
                       height='24.000000'
                       fill='white'
-                      fill-opacity='0'
+                      fillOpacity='0'
                     />
                   </clipPath>
                 </defs>
@@ -124,17 +124,17 @@ const Header = () => {
                   width='24.000000'
                   height='24.000000'
                   fill='#FFFFFF'
-                  fill-opacity='0'
+                  fillOpacity='0'
                 />
-                <g clip-path='url(#clip3_588)'>
+                <g clipPath='url(#clip3_588)'>
                   <path
                     id='Vector'
                     className='stroke-foreground'
                     d='M20 7.39C21.6 17.4 10.6 24.7 2 19C4.2 19.1 6.39 18.4 8 17C3 15.5 0.5 9.59 3 4.99C5.2 7.59 8.6 9.09 12 8.99C11.1 4.79 16 2.39 19 5.19C20.1 5.19 22 3.99 22 3.99C22 3.99 21.29 6.09 20 7.39Z'
                     stroke='#fff'
-                    stroke-opacity='1.000000'
-                    stroke-width='2.000000'
-                    stroke-linejoin='round'
+                    strokeOpacity='1.000000'
+                    strokeWidth='2.000000'
+                    strokeLinejoin='round'
                   />
                 </g>
               </svg>
@@ -160,7 +160,7 @@ const Header = () => {
                       width='24.000000'
                       height='24.000000'
                       fill='white'
-                      fill-opacity='0'
+                      fillOpacity='0'
                     />
                   </clipPath>
                 </defs>
@@ -169,28 +169,28 @@ const Header = () => {
                   width='24.000000'
                   height='24.000000'
                   fill='#FFFFFF'
-                  fill-opacity='0'
+                  fillOpacity='0'
                 />
-                <g clip-path='url(#clip3_575)'>
+                <g clipPath='url(#clip3_575)'>
                   <path
                     className='stroke-foreground'
                     id='Vector'
                     d='M15 22L15 18C15.13 16.74 14.77 15.49 14 14.5C17 14.5 20 12.5 20 9C20.07 7.75 19.73 6.52 19 5.5C19.27 4.35 19.27 3.15 19 2C19 2 18 2 16 3.5C13.35 3 10.63 3 8 3.5C6 2 5 2 5 2C4.69 3.15 4.69 4.35 5 5.5C4.27 6.51 3.91 7.75 4 9C4 12.5 7 14.5 10 14.5C9.6 14.99 9.31 15.55 9.14 16.15C8.97 16.75 8.92 17.37 9 18L9 22'
                     stroke='#fff'
-                    stroke-opacity='1.000000'
-                    stroke-width='2.000000'
-                    stroke-linejoin='round'
-                    stroke-linecap='round'
+                    strokeOpacity='1.000000'
+                    strokeWidth='2.000000'
+                    strokeLinejoin='round'
+                    strokeLinecap='round'
                   />
                   <path
                     className='stroke-foreground'
                     id='Vector'
                     d='M9 18C4.49 20 4 16 2 16'
                     stroke='#D1D5DB'
-                    stroke-opacity='1.000000'
-                    stroke-width='2.000000'
-                    stroke-linejoin='round'
-                    stroke-linecap='round'
+                    strokeOpacity='1.000000'
+                    strokeWidth='2.000000'
+                    strokeLinejoin='round'
+                    strokeLinecap='round'
                   />
                 </g>
               </svg>
@@ -204,7 +204,7 @@ const Header = () => {
             </Link>
           </div>
         </div>
-        <div className='header-image flex items-end justify-end w-[400px] h-[270px]  md:hidden '>
+        <div className='header-image flex items-end justify-end w-[400px] h-[270px]  lg:hidden '>
           <div
             className='flex items-center justify-center w-[300px] h-[272px] border-[8px] border-background mb-10 mr-10 z-10'
             data-aos='fade-up-left'
